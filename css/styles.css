@@ -694,7 +694,8 @@ nav {
     align-items: center;
   }
 }
-nav-link {
+
+.nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -703,11 +704,11 @@ nav-link {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 @media (min-width: 768px) {
-  nav-link {
+  .nav-link {
     flex-basis: 100px;
   }
 }
-nav-link:hover {
+.nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }

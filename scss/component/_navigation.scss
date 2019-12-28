@@ -12,18 +12,19 @@ nav {
     justify-content: flex-end;
     align-items: center;
   }
-  &-link {
-    text-align: center;
-    border-radius: 5px;
-    padding: 10px 0;
-    display: block;
-    width: 100%;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    @include mq($break-point) {
-      flex-basis: 100px;
-    }
+}
+
+.nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  @include mq($break-point) {
+    flex-basis: 100px;
   }
-  &-link:hover {
+  &:hover {
     color: $white;
     background-color: $teal;
   }
